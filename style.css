@@ -1,0 +1,29 @@
+.show{
+    width: 150px;
+    height: 50px;
+    top: 100px;
+    left: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: bisque;
+    border-radius: 20px;
+}
+.hide{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.show:hover ~ .hide{
+    visibility: visible;
+}
